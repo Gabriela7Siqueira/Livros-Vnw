@@ -1,0 +1,48 @@
+.HeaderBox {
+  height: 13vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+
+  background-image: linear-gradient(to right, #001b2f, #005695);
+  color: #ffffff;
+
+  ul {
+    list-style: none;
+    display: flex;
+    font-size: 12px;
+    width: 32vw;
+    // border: solid red;
+    list-style: none;
+  }
+
+  input {
+    width: 24vw;
+    height: 5vh;
+    background-color: transparent;
+    color: #ffffff;
+    border: solid white;
+    border-radius: 10px;
+    
+    &::placeholder {
+    color: white;
+    font-size: 11px;
+    }
+  }
+
+}
+
+.DivBox {
+  display: flex;
+  align-items: center;
+  // border: solid red;
+  
+  img {
+    width: 6vw;
+  }
+  
+  h2 {
+    font-size: 16px;
+  }
+}
