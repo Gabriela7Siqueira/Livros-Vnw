@@ -1,5 +1,5 @@
 .firstSection {
-background-color: purple;
+background-color: #005695;
 display: flex;
 align-items: center;
 justify-content: space-around;
@@ -9,22 +9,13 @@ height: 14vh;
     display: flex;
     width: 50%;
     justify-content: space-evenly;
+
      img{
     width: 10%;
     height: 10%;
     }
     }
 }
-// section {
-//     border: solid 3px #005695 ;
-//     width: 100vw;
-//     height: 40vh;
-//     border-radius: 20px;
-//     display: flex ;
-//     align-items: center;
-//     justify-content: space-evenly;
-//     }
-
 
 .secondSection {
 background-color:#232020 ;
@@ -51,8 +42,9 @@ color: #ffffff ;
 
 
         p {
-            width: 60%;
-            text-align: center;
+            width: 70%;
+            text-align:center;
+        
         }
     }
 }

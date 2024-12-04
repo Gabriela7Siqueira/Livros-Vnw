@@ -20,8 +20,7 @@ export default function Header() {
             <li>Livros Doados</li>{" "}
           </Link>
           <Link to="/queroDoar">
-            <li>Quero Doar</li>{" "}
-          </Link>
+          <li>Quero Doar</li>  </Link>
         </ul>
       </nav>
       <input type="text" placeholder="O que você procura?" />
