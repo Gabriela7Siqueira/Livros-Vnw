@@ -1,13 +1,15 @@
+import s from "./LivrosDoados.module.scss";
+import protagonista from "./protagonista.png"
 
 export default function LivrosDoados(){
     return(
         <section>
             <h2>Livros Doados</h2>
-        <section className="{s.LivrosDoadosSection">
-            <section className="{s.containerCards"/>
-                <img src="./protagonista.png" alt="Imagem do Livro O Protagonista" />
+        <section className={s.livrosDoadosSection}>
+            <section className={s.containerCards}/>
+                <img src={protagonista} alt="Imagem do Livro O Protagonista" />
                 <div>
-                <h3> O protagonista</h3>
+                <h3>O protagonista</h3>
                 <p>Susane Andrade</p>
                 <p>Ficção</p>
                 </div>

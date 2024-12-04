@@ -15,7 +15,7 @@ export default function Footer() {
             
             <img src="https://s3-alpha-sig.figma.com/img/c526/2e1e/b9c6e46703fc5b6f5908652b66b2cc54?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nNj2FBq4qJ7K1C36jOnHgc41t8kqyq6uyoOJOFQgu21vQbyiH9tuWOxLBzzZB6XUuuQbWHL5JBM0qgQWxa3QhksneFQGK1Pf7GWxlOk0XU2CCn7b8CV9H-ccHDMylOeBd3tSg62V6yybYJTSK1e9GxGlRthJchWwoow-ovc2t25wZLX96xk7RYk67HFAdfiz8055LVxDbYsrJtwqwIxDyG~k63CJKv6HMsmwaZWpBpERgtbh~SqU3KR03~8vX~4zD8M9MQiUI1Pkbru-UVm-t5JPBgCx4lTRFR2MvA4txGdEjx25jrVX6bjoE64uAcn-W4ktfgA7F10da1qdsSMvsg__" alt="Logo Linkedin" />
             
-            <img src="https://sls3-alpha-sig.figma.com/img/3875/9541/ec2b6b0be97bb77b34989dc8fc412eae?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OwEKeVqXqBktmF-S3ReHsz6ee8~FvfFU~oCS5PmBMItwBbOZo5wAw35ToXz5QubMQsCKbtQDIVY6--PhC0szwkAHxQSfjcdnx78ViGDUDjOpb5TB70turt1thVSpP6QcE1JOJ-GOOm4xEh4jR5F9n5YinENzrJT2zpnPLxBZ49y9l4-4xj-Y2lQr3yTsPQpy7g1d-wZnBBGW11v9qzj8xNUx1mnCUvTGpcx1ZJ-xVFlygSUaBBpp1elasRdKlX0zKQtUFm3QWRCOKMqeFvezYJnOn8YIiIWEVqir5sg9BJXRvKW3fe4eNUwEz3tptH~2yFirKg9bt5H42IKL1dDp~g__" alt="Logo Instagram" />
+            <img src=" " alt="Logo Instagram "/>
           
           </nav>
         </section>

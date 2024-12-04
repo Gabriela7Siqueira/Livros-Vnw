@@ -13,9 +13,15 @@ export default function Header() {
       </div>
       <nav>
         <ul>
-          <Link to="/"> Inicio </Link>
-          <Link to="/livrosDoados"> Livros Doados </Link>
-          <Link to="/queroDoar"> Quero Doar </Link>
+          <Link to="/">
+            <li>Inicio</li>{" "}
+          </Link>
+          <Link to="/livrosDoados">
+            <li>Livros Doados</li>{" "}
+          </Link>
+          <Link to="/queroDoar">
+            <li>Quero Doar</li>{" "}
+          </Link>
         </ul>
       </nav>
       <input type="text" placeholder="O que você procura?" />
