@@ -1,6 +1,3 @@
-import LivrosDoados from "./protagonista.png"
-
-<protagonista className="png"></protagonista>
 
 export default function LivrosDoados(){
     return(

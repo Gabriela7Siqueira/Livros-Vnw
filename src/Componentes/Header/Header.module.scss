@@ -11,7 +11,7 @@
   ul {
     list-style: none;
     display: flex;
-    font-size: 12px;
+    font-size: 14px;
     width: 32vw;
     // border: solid red;
     list-style: none;
@@ -21,13 +21,13 @@
     width: 24vw;
     height: 5vh;
     background-color: transparent;
-    color: #ffffff;
-    border: solid white;
+    color: #ffffff ;
+    border: solid #ffffff ;
     border-radius: 10px;
     
     &::placeholder {
     color: white;
-    font-size: 11px;
+    font-size: 10px;
     }
   }
 
@@ -45,4 +45,10 @@
   h2 {
     font-size: 16px;
   }
+}
+
+ul {
+  border: 2px solid;
+  display: flex;
+  justify-content: space-evenly;
 }
