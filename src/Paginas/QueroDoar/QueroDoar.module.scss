@@ -4,39 +4,47 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    background-color: #f0f4f7; /* Fundo mais suave */
+    padding: 20px;
 
     p {
         font-size: 24px;
         text-align: center;
         width: 90%;
+        color: #333;
     }
 
     form {
         border: solid #005695 3px;
         border-radius: 20px;
         height: 70vh;
-        width: 25%;
+        width: 30%; /* Ajustei para ficar mais centrado */
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 
         .logoLivroAberto {
             display: flex;
             align-items: center;
-            justify-content: center; 
+            justify-content: center;
             width: 90%;
             gap: 10px;
-            text-align: center; 
+            text-align: center;
             color: #005695;
 
             img {
-                width: 40px; 
+                width: 40px;
                 height: auto;
             }
 
             h2 {
-                font-size: 20px; 
+                font-size: 20px;
+                color: #005695;
             }
         }
 
@@ -47,39 +55,58 @@
             border: solid #005695;
             border-radius: 15px;
             padding-left: 20px;
+            font-size: 16px;
+            margin-bottom: 10px;
+            transition: border-color 0.3s ease;
 
             &::placeholder {
-                color: #000;
+                color: #888;
+            }
+
+            &:focus {
+                border-color: #0085c3;
+                outline: none;
             }
         }
 
         .buttonDoar {
             margin-top: 10px;
             width: 50%;
-            padding: 0;
             height: 5vh;
-            font-size: 20px; 
+            font-size: 20px;
             background-color: #005695;
             color: #FFF;
             cursor: pointer;
+            border: none;
+            border-radius: 10px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .buttonDoar:hover {
+            background-color: #0085c3;
+            transform: translateY(-5px);
+        }
+
+        .buttonDoar:active {
+            transform: translateY(2px);
         }
     }
 }
 
 @media (max-width: 780px) {
     .doacao {
-        height: 65vh; 
+        height: 65vh;
         p {
-            font-size: 18px; 
+            font-size: 18px;
         }
 
         form {
             width: 90%;
-            height: 50vh; 
-            padding: 20px; 
+            height: 50vh;
+            padding: 20px;
 
             .logoLivroAberto {
-                flex-direction: column; 
+                flex-direction: column;
                 gap: 10px;
 
                 img {
@@ -87,7 +114,7 @@
                 }
 
                 h2 {
-                    font-size: 18px; 
+                    font-size: 18px;
                 }
             }
 
@@ -98,7 +125,7 @@
 
             .buttonDoar {
                 font-size: 18px;
-                height: 5vh; 
+                height: 5vh;
                 padding: 0;
                 margin-top: 10px;
                 width: 50%;
@@ -106,7 +133,6 @@
         }
     }
 }
-
 
 @media (max-width: 400px) {
     .doacao {
@@ -117,7 +143,7 @@
         }
 
         form {
-            width: 90%; 
+            width: 90%;
 
             .logoLivroAberto {
                 img {
@@ -130,7 +156,7 @@
             }
 
             input {
-                width: 100%; 
+                width: 100%;
                 font-size: 14px;
             }
 
